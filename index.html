@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подорожі з нами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/icons/airplane.svg" alt="Логотип" width="50">
+        </div>
+        <nav>
+            <a href="#">Головна</a>
+            <a href="#">Тури</a>
+            <a href="#">Забронювати</a>
+            <a href="#">Контакти</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>Відкрийте світ захоплюючих пригод!</h1>
+        <p>Заплануйте незабутню подорож із нашою експертною командою, яка забезпечить вам найкращий досвід у кожному куточку планети.</p>
+        <div class="buttons">
+            <button class="plan-btn">Запланувати</button>
+            <button class="details-btn">Детальніше</button>
+        </div>
+    </div>
+
+    <section class="search-section">
+        <div class="field">
+            <label for="from">Звідки</label>
+            <select id="from">
+                <option>Виберіть країну</option>
+                <!-- Додати країни -->
+            </select>
+        </div>
+        <div class="field">
+            <label for="to">Куди</label>
+            <select id="to">
+                <option>Виберіть країну</option>
+                <!-- Додати країни -->
+            </select>
+        </div>
+        <div class="field">
+            <label for="date">Дата вильоту</label>
+            <input type="date" id="date">
+        </div>
+        <div class="field">
+            <label for="people">Кількість людей</label>
+            <input type="number" id="people" placeholder="Виберіть кількість">
+        </div>
+        <button>Шукати</button>
+    </section>
+</body>
+</html>
